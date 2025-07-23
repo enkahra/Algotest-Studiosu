@@ -1,0 +1,3 @@
+C:/Users/musae/Algotest-Studiosu/build/CMakeFiles/AlgotestApp.dir
+C:/Users/musae/Algotest-Studiosu/build/CMakeFiles/edit_cache.dir
+C:/Users/musae/Algotest-Studiosu/build/CMakeFiles/rebuild_cache.dir

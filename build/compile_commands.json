@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/musae/Algotest-Studiosu/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/AlgotestApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AlgotestApp.dir/core/src/main.cpp.obj -c C:/Users/musae/Algotest-Studiosu/core/src/main.cpp",
+  "file": "C:/Users/musae/Algotest-Studiosu/core/src/main.cpp",
+  "output": "CMakeFiles/AlgotestApp.dir/core/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/musae/Algotest-Studiosu/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/AlgotestApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AlgotestApp.dir/core/src/DataHandler.cpp.obj -c C:/Users/musae/Algotest-Studiosu/core/src/DataHandler.cpp",
+  "file": "C:/Users/musae/Algotest-Studiosu/core/src/DataHandler.cpp",
+  "output": "CMakeFiles/AlgotestApp.dir/core/src/DataHandler.cpp.obj"
+},
+{
+  "directory": "C:/Users/musae/Algotest-Studiosu/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/AlgotestApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AlgotestApp.dir/core/src/SimpleStrategy.cpp.obj -c C:/Users/musae/Algotest-Studiosu/core/src/SimpleStrategy.cpp",
+  "file": "C:/Users/musae/Algotest-Studiosu/core/src/SimpleStrategy.cpp",
+  "output": "CMakeFiles/AlgotestApp.dir/core/src/SimpleStrategy.cpp.obj"
+},
+{
+  "directory": "C:/Users/musae/Algotest-Studiosu/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/AlgotestApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AlgotestApp.dir/core/src/Portfolio.cpp.obj -c C:/Users/musae/Algotest-Studiosu/core/src/Portfolio.cpp",
+  "file": "C:/Users/musae/Algotest-Studiosu/core/src/Portfolio.cpp",
+  "output": "CMakeFiles/AlgotestApp.dir/core/src/Portfolio.cpp.obj"
+},
+{
+  "directory": "C:/Users/musae/Algotest-Studiosu/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/AlgotestApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj -c C:/Users/musae/Algotest-Studiosu/core/src/Backtester.cpp",
+  "file": "C:/Users/musae/Algotest-Studiosu/core/src/Backtester.cpp",
+  "output": "CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj"
+}
+]
