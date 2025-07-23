@@ -7,8 +7,8 @@ SimpleStrategy::SimpleStrategy() {
 }
 
 void SimpleStrategy::onData(const StockData& data) {
-    const double BUY_THRESHOLD = 100.0;  // Buy when price is below this
-    const double SELL_THRESHOLD = 150.0; // Sell when price is above this
+    const double BUY_THRESHOLD = 75.0;  // Buy when price is below this
+    const double SELL_THRESHOLD = 125.0; // Sell when price is above this
     const int TRADE_QUANTITY = 10;       // Standard trade quantity
     
     double currentPrice = data.close;

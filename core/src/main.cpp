@@ -3,6 +3,7 @@
 #include "SimpleStrategy.h"
 #include "Portfolio.h"
 #include "Backtester.h"
+#include "MovingAverageStrategy.h"
 
 int main() {
     DataHandler dataHandler;
@@ -15,14 +16,41 @@ int main() {
 
     std::cout << "Data loading successful." << std::endl;
     
-    // Initialize trading components
-    SimpleStrategy strategy;
-    Portfolio portfolio(10000.0); // Initial balance 10,000 TL
+    // Let user choose strategy
+    std::cout << "\nChoose your trading strategy:" << std::endl;
+    std::cout << "1. Simple Strategy (threshold-based)" << std::endl;
+    std::cout << "2. Moving Average Strategy (crossover-based)" << std::endl;
+    std::cout << "Enter your choice (1 or 2): ";
     
-    // Connect strategy signals to portfolio
-    strategy.setSignalSender([&portfolio](const Trade& trade) {
-        portfolio.processTrade(trade);
-    });
+    int choice;
+    std::cin >> choice;
+    
+    // Initialize trading components
+    SimpleStrategy simpleStrategy;
+    MovingAverageStrategy movingAvgStrategy(10, 30); 
+    Portfolio portfolio(10000.0); // Initial balance 10,000 Dollars
+    
+    IStrategy* selectedStrategy = nullptr;
+    
+    if (choice == 1) {
+        std::cout << "\nYou selected: Simple Strategy" << std::endl;
+        selectedStrategy = &simpleStrategy;
+        simpleStrategy.setSignalSender([&portfolio](const Trade& trade) {
+            portfolio.processTrade(trade);
+        });
+    } else if (choice == 2) {
+        std::cout << "\nYou selected: Moving Average Strategy" << std::endl;
+        selectedStrategy = &movingAvgStrategy;
+        movingAvgStrategy.setSignalSender([&portfolio](const Trade& trade) {
+            portfolio.processTrade(trade);
+        });
+    } else {
+        std::cerr << "Invalid choice! Using Simple Strategy as default." << std::endl;
+        selectedStrategy = &simpleStrategy;
+        simpleStrategy.setSignalSender([&portfolio](const Trade& trade) {
+            portfolio.processTrade(trade);
+        });
+    }
 
     // Get market data and show stats
     const auto& allData = dataHandler.getStockData();
@@ -32,12 +60,13 @@ int main() {
     std::cout << "\nInitial Portfolio State:" << std::endl;
     portfolio.displayHoldings();
 
-    // Create backtester and run simulation
-    Backtester backtester(strategy, portfolio, dataHandler);
+    // Create backtester and run simulation with selected strategy
+    Backtester backtester(*selectedStrategy, portfolio, dataHandler);
     backtester.startSimulation();
 
     std::cout << "\nProgram finished. Press Enter to close..." << std::endl;
-    std::cin.get();
+    std::cin.ignore(); // Clear any leftover newline from previous input
+    std::cin.get();    // Wait for user to press Enter
 
     return 0;
 }

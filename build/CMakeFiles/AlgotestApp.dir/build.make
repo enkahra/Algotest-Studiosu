@@ -147,13 +147,29 @@ CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.s"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/musae/Algotest-Studiosu/core/src/Backtester.cpp -o CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.s
 
+CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj: CMakeFiles/AlgotestApp.dir/flags.make
+CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj: CMakeFiles/AlgotestApp.dir/includes_CXX.rsp
+CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj: C:/Users/musae/Algotest-Studiosu/core/src/MovingAverageStrategy.cpp
+CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj: CMakeFiles/AlgotestApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/musae/Algotest-Studiosu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj -MF CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj.d -o CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj -c C:/Users/musae/Algotest-Studiosu/core/src/MovingAverageStrategy.cpp
+
+CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/musae/Algotest-Studiosu/core/src/MovingAverageStrategy.cpp > CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.i
+
+CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/musae/Algotest-Studiosu/core/src/MovingAverageStrategy.cpp -o CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.s
+
 # Object files for target AlgotestApp
 AlgotestApp_OBJECTS = \
 "CMakeFiles/AlgotestApp.dir/core/src/main.cpp.obj" \
 "CMakeFiles/AlgotestApp.dir/core/src/DataHandler.cpp.obj" \
 "CMakeFiles/AlgotestApp.dir/core/src/SimpleStrategy.cpp.obj" \
 "CMakeFiles/AlgotestApp.dir/core/src/Portfolio.cpp.obj" \
-"CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj"
+"CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj" \
+"CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj"
 
 # External object files for target AlgotestApp
 AlgotestApp_EXTERNAL_OBJECTS =
@@ -163,10 +179,11 @@ AlgotestApp.exe: CMakeFiles/AlgotestApp.dir/core/src/DataHandler.cpp.obj
 AlgotestApp.exe: CMakeFiles/AlgotestApp.dir/core/src/SimpleStrategy.cpp.obj
 AlgotestApp.exe: CMakeFiles/AlgotestApp.dir/core/src/Portfolio.cpp.obj
 AlgotestApp.exe: CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj
+AlgotestApp.exe: CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj
 AlgotestApp.exe: CMakeFiles/AlgotestApp.dir/build.make
 AlgotestApp.exe: CMakeFiles/AlgotestApp.dir/linkLibs.rsp
 AlgotestApp.exe: CMakeFiles/AlgotestApp.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/musae/Algotest-Studiosu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable AlgotestApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/musae/Algotest-Studiosu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable AlgotestApp.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/AlgotestApp.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/AlgotestApp.dir/objects.a @CMakeFiles/AlgotestApp.dir/objects1.rsp
 	C:/msys64/mingw64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/AlgotestApp.dir/objects.a -Wl,--no-whole-archive -o AlgotestApp.exe -Wl,--out-implib,libAlgotestApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/AlgotestApp.dir/linkLibs.rsp

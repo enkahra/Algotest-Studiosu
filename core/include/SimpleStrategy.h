@@ -10,7 +10,4 @@ class SimpleStrategy : public IStrategy {
         void onData(const StockData& data) override;
         
         void setSignalSender(std::function<void(const Trade&)> sender) override;
-        
-    private:
-        std::function<void(const Trade&)> m_sendSignal;
 };

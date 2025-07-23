@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/musae/Algotest-Studiosu/core/src/Backtester.cpp" "CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj" "gcc" "CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj.d"
   "C:/Users/musae/Algotest-Studiosu/core/src/DataHandler.cpp" "CMakeFiles/AlgotestApp.dir/core/src/DataHandler.cpp.obj" "gcc" "CMakeFiles/AlgotestApp.dir/core/src/DataHandler.cpp.obj.d"
+  "C:/Users/musae/Algotest-Studiosu/core/src/MovingAverageStrategy.cpp" "CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj" "gcc" "CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj.d"
   "C:/Users/musae/Algotest-Studiosu/core/src/Portfolio.cpp" "CMakeFiles/AlgotestApp.dir/core/src/Portfolio.cpp.obj" "gcc" "CMakeFiles/AlgotestApp.dir/core/src/Portfolio.cpp.obj.d"
   "C:/Users/musae/Algotest-Studiosu/core/src/SimpleStrategy.cpp" "CMakeFiles/AlgotestApp.dir/core/src/SimpleStrategy.cpp.obj" "gcc" "CMakeFiles/AlgotestApp.dir/core/src/SimpleStrategy.cpp.obj.d"
   "C:/Users/musae/Algotest-Studiosu/core/src/main.cpp" "CMakeFiles/AlgotestApp.dir/core/src/main.cpp.obj" "gcc" "CMakeFiles/AlgotestApp.dir/core/src/main.cpp.obj.d"

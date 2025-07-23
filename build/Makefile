@@ -177,6 +177,30 @@ core/src/DataHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgotestApp.dir/build.make CMakeFiles/AlgotestApp.dir/core/src/DataHandler.cpp.s
 .PHONY : core/src/DataHandler.cpp.s
 
+core/src/MovingAverageStrategy.obj: core/src/MovingAverageStrategy.cpp.obj
+.PHONY : core/src/MovingAverageStrategy.obj
+
+# target to build an object file
+core/src/MovingAverageStrategy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgotestApp.dir/build.make CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj
+.PHONY : core/src/MovingAverageStrategy.cpp.obj
+
+core/src/MovingAverageStrategy.i: core/src/MovingAverageStrategy.cpp.i
+.PHONY : core/src/MovingAverageStrategy.i
+
+# target to preprocess a source file
+core/src/MovingAverageStrategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgotestApp.dir/build.make CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.i
+.PHONY : core/src/MovingAverageStrategy.cpp.i
+
+core/src/MovingAverageStrategy.s: core/src/MovingAverageStrategy.cpp.s
+.PHONY : core/src/MovingAverageStrategy.s
+
+# target to generate assembly for a file
+core/src/MovingAverageStrategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgotestApp.dir/build.make CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.s
+.PHONY : core/src/MovingAverageStrategy.cpp.s
+
 core/src/Portfolio.obj: core/src/Portfolio.cpp.obj
 .PHONY : core/src/Portfolio.obj
 
@@ -264,6 +288,9 @@ help:
 	@echo "... core/src/DataHandler.obj"
 	@echo "... core/src/DataHandler.i"
 	@echo "... core/src/DataHandler.s"
+	@echo "... core/src/MovingAverageStrategy.obj"
+	@echo "... core/src/MovingAverageStrategy.i"
+	@echo "... core/src/MovingAverageStrategy.s"
 	@echo "... core/src/Portfolio.obj"
 	@echo "... core/src/Portfolio.i"
 	@echo "... core/src/Portfolio.s"

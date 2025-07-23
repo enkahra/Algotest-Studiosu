@@ -15,5 +15,6 @@ add_executable(AlgotestApp
     core/src/SimpleStrategy.cpp
     core/src/Portfolio.cpp
     core/src/Backtester.cpp
+    core/src/MovingAverageStrategy.cpp
 )
 target_include_directories(AlgotestApp PUBLIC core/include)

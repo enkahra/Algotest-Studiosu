@@ -28,5 +28,11 @@
   "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/AlgotestApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj -c C:/Users/musae/Algotest-Studiosu/core/src/Backtester.cpp",
   "file": "C:/Users/musae/Algotest-Studiosu/core/src/Backtester.cpp",
   "output": "CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj"
+},
+{
+  "directory": "C:/Users/musae/Algotest-Studiosu/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/AlgotestApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj -c C:/Users/musae/Algotest-Studiosu/core/src/MovingAverageStrategy.cpp",
+  "file": "C:/Users/musae/Algotest-Studiosu/core/src/MovingAverageStrategy.cpp",
+  "output": "CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj"
 }
 ]

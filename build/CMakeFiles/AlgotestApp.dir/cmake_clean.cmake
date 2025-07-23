@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AlgotestApp.dir/core/src/Backtester.cpp.obj.d"
   "CMakeFiles/AlgotestApp.dir/core/src/DataHandler.cpp.obj"
   "CMakeFiles/AlgotestApp.dir/core/src/DataHandler.cpp.obj.d"
+  "CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj"
+  "CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj.d"
   "CMakeFiles/AlgotestApp.dir/core/src/Portfolio.cpp.obj"
   "CMakeFiles/AlgotestApp.dir/core/src/Portfolio.cpp.obj.d"
   "CMakeFiles/AlgotestApp.dir/core/src/SimpleStrategy.cpp.obj"

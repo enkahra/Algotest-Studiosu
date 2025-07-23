@@ -85,12 +85,12 @@ clean: CMakeFiles/AlgotestApp.dir/clean
 CMakeFiles/AlgotestApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgotestApp.dir/build.make CMakeFiles/AlgotestApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgotestApp.dir/build.make CMakeFiles/AlgotestApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/musae/Algotest-Studiosu/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target AlgotestApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/musae/Algotest-Studiosu/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target AlgotestApp"
 .PHONY : CMakeFiles/AlgotestApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AlgotestApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/musae/Algotest-Studiosu/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/musae/Algotest-Studiosu/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AlgotestApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/musae/Algotest-Studiosu/build/CMakeFiles 0
 .PHONY : CMakeFiles/AlgotestApp.dir/rule
@@ -102,7 +102,7 @@ AlgotestApp: CMakeFiles/AlgotestApp.dir/rule
 # codegen rule for target.
 CMakeFiles/AlgotestApp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgotestApp.dir/build.make CMakeFiles/AlgotestApp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/musae/Algotest-Studiosu/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target AlgotestApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/musae/Algotest-Studiosu/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target AlgotestApp"
 .PHONY : CMakeFiles/AlgotestApp.dir/codegen
 
 # clean rule for target.
