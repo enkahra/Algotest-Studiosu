@@ -343,6 +343,7 @@ CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj: C:/Users/musa
   C:/Users/musae/Algotest-Studiosu/core/include/DataHandler.h \
   C:/Users/musae/Algotest-Studiosu/core/include/IStrategy.h \
   C:/Users/musae/Algotest-Studiosu/core/include/MovingAverageStrategy.h \
+  C:/Users/musae/Algotest-Studiosu/core/include/Portfolio.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -406,7 +407,10 @@ CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj: C:/Users/musa
   C:/msys64/mingw64/include/c++/15.1.0/bits/stl_iterator.h \
   C:/msys64/mingw64/include/c++/15.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/mingw64/include/c++/15.1.0/bits/stl_iterator_base_types.h \
+  C:/msys64/mingw64/include/c++/15.1.0/bits/stl_map.h \
+  C:/msys64/mingw64/include/c++/15.1.0/bits/stl_multimap.h \
   C:/msys64/mingw64/include/c++/15.1.0/bits/stl_pair.h \
+  C:/msys64/mingw64/include/c++/15.1.0/bits/stl_tree.h \
   C:/msys64/mingw64/include/c++/15.1.0/bits/stl_uninitialized.h \
   C:/msys64/mingw64/include/c++/15.1.0/bits/stl_vector.h \
   C:/msys64/mingw64/include/c++/15.1.0/bits/streambuf.tcc \
@@ -444,6 +448,7 @@ CMakeFiles/AlgotestApp.dir/core/src/MovingAverageStrategy.cpp.obj: C:/Users/musa
   C:/msys64/mingw64/include/c++/15.1.0/iosfwd \
   C:/msys64/mingw64/include/c++/15.1.0/iostream \
   C:/msys64/mingw64/include/c++/15.1.0/istream \
+  C:/msys64/mingw64/include/c++/15.1.0/map \
   C:/msys64/mingw64/include/c++/15.1.0/new \
   C:/msys64/mingw64/include/c++/15.1.0/ostream \
   C:/msys64/mingw64/include/c++/15.1.0/pstl/pstl_config.h \

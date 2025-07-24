@@ -9,6 +9,7 @@ class Portfolio {
 private:
     double m_balance; // Portföy bakiyesi
     std::map<std::string, long> m_stocks; // Hisse senedi sembolü ve miktarını tutan harita
+    std::map<std::string, double> m_lastPrices; // Son işlem fiyatlarını tutan harita
 
 public:
     Portfolio(double initialBalance = 0.0) : m_balance(initialBalance) {}

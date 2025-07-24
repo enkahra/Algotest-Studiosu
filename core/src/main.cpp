@@ -10,12 +10,12 @@ int main() {
     
     // Load market data
     if (!dataHandler.loadDataFromCSV("C:\\Users\\musae\\Algotest-Studiosu\\data\\sample_data.csv")) {
-        std::cerr << "Data loading failed. Terminating program." << std::endl;
+        std::cerr << "DEBUG: Data loading failed. Terminating program." << std::endl;
         return -1;
     }
 
-    std::cout << "Data loading successful." << std::endl;
-    
+    std::cout << "DEBUG: Data loading successful." << std::endl;
+
     // Let user choose strategy
     std::cout << "\nChoose your trading strategy:" << std::endl;
     std::cout << "1. Simple Strategy (threshold-based)" << std::endl;
@@ -27,8 +27,20 @@ int main() {
     
     // Initialize trading components
     SimpleStrategy simpleStrategy;
-    MovingAverageStrategy movingAvgStrategy(10, 30); 
+    int shortPeriod{10}, longPeriod{30}; // Optimized default periods
+    if(choice == 2) {
+        std::cout << "Enter short moving average period (default 4): ";
+        std::cin >> shortPeriod;
+        std::cout << "Enter long moving average period (default 20): ";
+        std::cin >> longPeriod;
+    } else {
+        std::cout << "Using default periods: Short = 4, Long = 20" << std::endl;
+    }
+    MovingAverageStrategy movingAvgStrategy(longPeriod, shortPeriod, 0.95); // 95% position sizing
     Portfolio portfolio(10000.0); // Initial balance 10,000 Dollars
+    
+    // Set portfolio reference for the moving average strategy
+    movingAvgStrategy.setPortfolio(&portfolio);
     
     IStrategy* selectedStrategy = nullptr;
     
@@ -54,7 +66,7 @@ int main() {
 
     // Get market data and show stats
     const auto& allData = dataHandler.getStockData();
-    std::cout << "Total record count: " << allData.size() << std::endl;
+    std::cout << "DEBUG: Total record count: " << allData.size() << std::endl;
 
     // Show initial portfolio state
     std::cout << "\nInitial Portfolio State:" << std::endl;
